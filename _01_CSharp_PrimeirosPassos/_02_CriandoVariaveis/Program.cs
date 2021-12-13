@@ -10,7 +10,11 @@ namespace _02_CriandoVariaveis
 
             int idade = 28;
 
-            Console.WriteLine($"Minha Idade é {idade}");
+            Console.WriteLine($"Minha Idade é {idade}\n");
+
+            idade += 10;
+
+            Console.WriteLine(idade + "\n");
 
             Console.WriteLine("Tecle Enter para Sair!");
             Console.ReadLine();
