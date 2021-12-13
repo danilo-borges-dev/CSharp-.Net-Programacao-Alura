@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danilo\\Desktop\\C# parte 1 Primeiros passos\\CSharp-.Net-Programacao-Alura-Prof-Guilherme-Matheus\\_01_CSharp_PrimeirosPassos\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto.csproj",
+      "projectUniqueName": "C:\\Users\\Danilo\\Desktop\\CSharp-.Net-Programacao-Alura-Prof-Guilherme-Matheus\\_01_CSharp_PrimeirosPassos\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto.csproj",
       "projectName": "_01_PrimeiroProjeto",
-      "projectPath": "C:\\Users\\Danilo\\Desktop\\C# parte 1 Primeiros passos\\CSharp-.Net-Programacao-Alura-Prof-Guilherme-Matheus\\_01_CSharp_PrimeirosPassos\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto.csproj",
+      "projectPath": "C:\\Users\\Danilo\\Desktop\\CSharp-.Net-Programacao-Alura-Prof-Guilherme-Matheus\\_01_CSharp_PrimeirosPassos\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto.csproj",
       "packagesPath": "C:\\Users\\Danilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danilo\\Desktop\\C# parte 1 Primeiros passos\\CSharp-.Net-Programacao-Alura-Prof-Guilherme-Matheus\\_01_CSharp_PrimeirosPassos\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto\\obj\\",
+      "outputPath": "C:\\Users\\Danilo\\Desktop\\CSharp-.Net-Programacao-Alura-Prof-Guilherme-Matheus\\_01_CSharp_PrimeirosPassos\\_01_PrimeiroProjeto\\_01_PrimeiroProjeto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
