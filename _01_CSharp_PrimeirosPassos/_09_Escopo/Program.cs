@@ -14,7 +14,7 @@ namespace _09_Escopo
             string mensagemAdicional;
 
             acompanhado = quantidadePessoas > 1 ? true : false;
-            
+
             if (acompanhado == true)
             {
                 mensagemAdicional = "João está acompanhado!";
