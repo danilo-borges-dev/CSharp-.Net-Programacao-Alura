@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_04_ConversoesEOutrosTiposN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05_CaracteresETextos", "_05_CaracteresETextos\_05_CaracteresETextos.csproj", "{5EBDD83D-F7D5-46AD-9053-3FC079568987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_AtribuicoesDeVariaveis", "_06_AtribuicoesDeVariaveis\_06_AtribuicoesDeVariaveis.csproj", "{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_07_Condicionais", "_07_Condicionais\_07_Condicionais.csproj", "{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{5EBDD83D-F7D5-46AD-9053-3FC079568987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EBDD83D-F7D5-46AD-9053-3FC079568987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EBDD83D-F7D5-46AD-9053-3FC079568987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
