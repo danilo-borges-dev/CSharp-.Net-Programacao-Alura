@@ -11,17 +11,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_03_CriandoVariaveisPontoFl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_04_ConversoesEOutrosTiposNumericos", "_04_ConversoesEOutrosTiposNumericos\_04_ConversoesEOutrosTiposNumericos.csproj", "{B7D1D1E7-F1C8-4D7C-B9B5-F3FBEE23D617}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05_CaracteresETextos", "_05_CaracteresETextos\_05_CaracteresETextos.csproj", "{5EBDD83D-F7D5-46AD-9053-3FC079568987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_05_CaracteresETextos", "_05_CaracteresETextos\_05_CaracteresETextos.csproj", "{5EBDD83D-F7D5-46AD-9053-3FC079568987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_AtribuicoesDeVariaveis", "_06_AtribuicoesDeVariaveis\_06_AtribuicoesDeVariaveis.csproj", "{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_06_AtribuicoesDeVariaveis", "_06_AtribuicoesDeVariaveis\_06_AtribuicoesDeVariaveis.csproj", "{F56F8AED-C4BC-4CD8-94EB-4E744FB76AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_07_Condicionais", "_07_Condicionais\_07_Condicionais.csproj", "{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_07_Condicionais", "_07_Condicionais\_07_Condicionais.csproj", "{4161ABCE-BCD0-4A3B-BC0C-2B4F5D0AE816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_08_Condicionais2", "_08_Condicionais2\_08_Condicionais2.csproj", "{950133E0-A3B4-43AF-9B53-F5B6D1B2CDB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_08_Condicionais2", "_08_Condicionais2\_08_Condicionais2.csproj", "{950133E0-A3B4-43AF-9B53-F5B6D1B2CDB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_09_Escopo", "_09_Escopo\_09_Escopo.csproj", "{569FF3D4-2446-4001-876A-D8452FCBE273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_09_Escopo", "_09_Escopo\_09_Escopo.csproj", "{569FF3D4-2446-4001-876A-D8452FCBE273}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_10_CalculaPoupanca", "_10_CalculaPoupanca\_10_CalculaPoupanca.csproj", "{3490308B-99BD-483C-9634-BB02A24B5801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_10_CalculaPoupanca", "_10_CalculaPoupanca\_10_CalculaPoupanca.csproj", "{3490308B-99BD-483C-9634-BB02A24B5801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_11_CalculaPoupanca2", "_11_CalculaPoupanca2\_11_CalculaPoupanca2.csproj", "{D36BE5DE-0CD7-489A-9DD1-6D3D3EAC4BE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{3490308B-99BD-483C-9634-BB02A24B5801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3490308B-99BD-483C-9634-BB02A24B5801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3490308B-99BD-483C-9634-BB02A24B5801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36BE5DE-0CD7-489A-9DD1-6D3D3EAC4BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36BE5DE-0CD7-489A-9DD1-6D3D3EAC4BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36BE5DE-0CD7-489A-9DD1-6D3D3EAC4BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36BE5DE-0CD7-489A-9DD1-6D3D3EAC4BE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
