@@ -11,11 +11,16 @@ namespace _10_CalculaPoupanca
 
             double valorInvestido = 1_000;
             double valorAtualizado = 0.0;
-
-            valorAtualizado = valorInvestido + (valorInvestido * 0.05);
+            int i = 1;
 
             Console.WriteLine($"Valor Investido R${valorInvestido.ToString("F2", CultureInfo.InvariantCulture)}");
-            Console.WriteLine($"Valor Investido em 01 Mês R${valorAtualizado.ToString("F2", CultureInfo.InvariantCulture)}");
+
+            while(i <= 12)
+            {
+                valorAtualizado = valorInvestido + (valorInvestido * 0.0036); // 0.36% = 0.0036
+                Console.WriteLine($"Valor Investido em {i} Mês(s) R${valorAtualizado.ToString("F2", CultureInfo.InvariantCulture)}");
+                i++;
+            }
         }
     }
 }
