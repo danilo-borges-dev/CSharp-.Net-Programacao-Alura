@@ -26,5 +26,17 @@
             Saldo += valor;
             Console.WriteLine($"Depósito  realizado com Sucesso! - Novo Saldo em Conta R${Saldo}");
         }
+        public bool Transferir(double valor, ContaCorrente contaDestino)
+        {
+            if(valor > Saldo)
+            {
+                Console.WriteLine($"Saldo Insuficiente para Transferir - Saldo Atual em Conta R${Saldo}");
+                return false;
+            }
+            Saldo -= valor;
+            contaDestino.Depositar(valor);
+            Console.WriteLine($"Transferência Realizada com Sucesso! - Titular {Titular} - Saldo Atual em Conta R${Saldo}");
+            return true;
+        }
     }
 }
