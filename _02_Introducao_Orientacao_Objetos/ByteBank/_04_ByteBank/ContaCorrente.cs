@@ -8,7 +8,7 @@
         public double Saldo;
         public bool Sacar(double valor)
         {
-            if(valor > Saldo)
+            if(valor > Saldo)  // Existe um retorno, portanto é comum chamar de Função
             {
                 Console.WriteLine($"Saldo Insuficiente - Saldo Atual R${Saldo.ToString("F2")}");
                 return false;
@@ -16,6 +16,15 @@
             Saldo -= valor;
             Console.WriteLine($"Saque Realizado com Sucesso - Novo Saldo em Conta R${Saldo.ToString("F2")}");
             return true;
+        }
+        public void Depositar(double valor)  // Método
+        {
+            if(valor < 0)
+            {
+                Console.WriteLine("Valor Inválido para Depósito!");
+            }
+            Saldo += valor;
+            Console.WriteLine($"Depósito  realizado com Sucesso! - Novo Saldo em Conta R${Saldo}");
         }
     }
 }

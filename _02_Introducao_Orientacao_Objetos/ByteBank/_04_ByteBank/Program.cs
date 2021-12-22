@@ -10,6 +10,11 @@
             contaDoBruno.Saldo = 100;
             contaDoBruno.Sacar(50);
             contaDoBruno.Sacar(100);
+
+            Console.WriteLine();
+
+            contaDoBruno.Depositar(600);
+            contaDoBruno.Depositar(-50);
         }
     }
 }
