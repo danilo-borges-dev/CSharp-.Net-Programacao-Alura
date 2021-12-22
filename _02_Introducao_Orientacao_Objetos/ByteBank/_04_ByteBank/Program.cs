@@ -3,17 +3,13 @@
     public class Program
     {
         static void Main(string[] args)
-        {
-            ContaCorrente contaDaBruna = new ContaCorrente();
+        { 
+            ContaCorrente contaDoBruno = new ContaCorrente();
 
-            contaDaBruna.Titular = "Bruna";
-            contaDaBruna.Agencia = 12552;
-            contaDaBruna.Numero = 1589365;
-            contaDaBruna.Saldo = 100;
-            
-            ContaCorrente contaDaGabriela = new ContaCorrente();          
-
-            
+            contaDoBruno.Titular = "Bruno";
+            contaDoBruno.Saldo = 100;
+            contaDoBruno.Sacar(50);
+            contaDoBruno.Sacar(100);
         }
     }
 }
