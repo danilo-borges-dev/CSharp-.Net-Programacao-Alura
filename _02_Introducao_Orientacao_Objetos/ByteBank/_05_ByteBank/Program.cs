@@ -13,6 +13,8 @@
             contaDaGabriela.Titular = novoCliente;
 
             Console.WriteLine(contaDaGabriela.Titular.Nome);
+
+            Console.WriteLine();
         }
     }
 }
