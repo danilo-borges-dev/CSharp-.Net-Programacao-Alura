@@ -1,11 +1,32 @@
-﻿namespace _07_ByteBank
+﻿namespace _08_ByteBank
 {
     internal class ContaCorrente
     {
+        public static int TotalDeContasCriadas { get; private set; }
         public Cliente Titular = new();
-        private int Agencia { get; }
-        public int Numero { get; }
-        private double _saldo;        
+        private int _numero;
+        private int _agencia;
+        private double _saldo;
+        public ContaCorrente(int numero, int agencia)
+        {
+            if (numero < 0)
+            {
+                Console.WriteLine("Número inválido para Conta!");
+            }
+            else
+            {
+                _numero = numero;
+            }
+            if (agencia < 0)
+            {
+                Console.WriteLine("Número inválido para Agência!");
+            }
+            else
+            {
+                _agencia = agencia;
+            }
+            TotalDeContasCriadas++;
+        }
         public double Saldo
         {
             get
