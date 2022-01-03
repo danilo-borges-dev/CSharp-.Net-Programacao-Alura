@@ -4,32 +4,24 @@
     {
         static void Main(string[] args)
         {
-            ContaCorrente novaConta = new();
+            ContaCorrente conta = new();
 
-            // novaConta.Titular = new Cliente();
+            #region Populando propriedades do Objeto conta
+            conta.Titular.Nome = "Danilo Borges";
+            conta.Titular.Cpf = "123.123.123.12";
+            conta.Titular.Proficao = "Desenvolvedor C#";
 
-            novaConta.Titular.Nome = "Danilo";
-            novaConta.Titular.Proficao = "Engenheiro de Software";
+            Console.WriteLine(conta.Titular.Nome);
 
-            novaConta.Depositar(100_000_000_000);
+            Console.WriteLine(conta.Titular);
 
-            Console.WriteLine(novaConta.Titular.Nome);
-            Console.WriteLine(novaConta.Titular.Proficao);
-
-            Console.WriteLine();
-
-            ContaCorrente novaConta2 = new();
-
-            novaConta2.Titular.Nome = "Marcos";
-            novaConta2.Depositar(1_000_000);
-            novaConta2.Titular.Proficao = "Empresário";
-
-            Console.WriteLine(novaConta2.Titular.Nome);
-            Console.WriteLine(novaConta2.Titular.Proficao);
-
-            Console.WriteLine();
-
-            Console.WriteLine(novaConta2.GetSaldo());
+            if(conta.Titular == null)
+            {
+                Console.WriteLine("A referência para o campo titular é Nulo");
+            }
+            #endregion
+            conta.Saldo = 100;
+            Console.WriteLine(conta.Saldo);
         }
     }
 }
