@@ -6,5 +6,9 @@
         {
 
         }
+        public override double GetBonificacao()
+        {
+            return _salario * 0.20;
+        }
     }
 }
