@@ -2,7 +2,7 @@
 
 namespace ByteBank
 {
-    internal class GerenciadorBonificacao
+    internal class GerenciadorBonificacao // Esta Classe apenas registra o total de bonificacoes
     {
         private double _totalBonificacao;
         public void Registrar(Funcionario funcionario)

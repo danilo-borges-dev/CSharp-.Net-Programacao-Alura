@@ -6,22 +6,47 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            
+
             GerenciadorBonificacao gerenciador = new();
 
-            Diretor diretorRoberta = new("Roberta", "123", 2_000);
-            gerenciador.Registrar(diretorRoberta);
+            Diretor marcio = new("Mario", "123", 5_000);
+            Designer dani = new("Dani", "123", 3_000);
+            GerenteDeConta mateus = new("Mateus", "123", 4_000);
+            Auxiliar jessica = new("Jessica", "123", 2_000);
 
-            Console.WriteLine($"Bonificacao Diretor R${diretorRoberta.GetBonificacao()}");
-            Console.WriteLine($"Total de Bonificacoes: R${gerenciador.GetTotalBonificacao()}");
+            Console.WriteLine($"\n# Diretor {marcio.Nome}");
+            Console.WriteLine($"Salario atual R${marcio.GetSalario().ToString("F2")}");
+            Console.WriteLine($"Total da Bonificacao R${marcio.GetBonificacao().ToString("F2")}");
+            marcio.AumentarSalario();
+            Console.WriteLine($"Novo Salario R${marcio.GetSalario().ToString("F2")}");
 
-            Console.WriteLine($"\nTotal de Funcionarios: {Funcionario.TotalDeFuncionarios}");
 
-            Console.WriteLine($"\nSalario atual do Diretor R${diretorRoberta.GetSalario()}");
+            Console.WriteLine($"\n# Designer {dani.Nome}");
+            Console.WriteLine($"Salario atual R${dani.GetSalario().ToString("F2")}");
+            Console.WriteLine($"Total da Bonificacao R${dani.GetBonificacao().ToString("F2")}");
+            dani.AumentarSalario();
+            Console.WriteLine($"Novo Salario R${dani.GetSalario().ToString("F2")}");
 
-            diretorRoberta.AumentarSalario();
-            Console.WriteLine($"\nNovo Salario do Diretor R${diretorRoberta.GetSalario()}");
+            Console.WriteLine($"\n# Gerente de Conta {mateus.Nome}");
+            Console.WriteLine($"Salario atual R${mateus.GetSalario().ToString("F2")}");
+            Console.WriteLine($"Total da Bonificacao R${mateus.GetBonificacao().ToString("F2")}");
+            mateus.AumentarSalario();
+            Console.WriteLine($"Novo Salario R${mateus.GetSalario().ToString("F2")}");
 
+            Console.WriteLine($"\n# Auxiliar {jessica.Nome}");
+            Console.WriteLine($"Salario atual R${jessica.GetSalario().ToString("F2")}");
+            Console.WriteLine($"Total da Bonificacao R${jessica.GetBonificacao().ToString("F2")}");
+            jessica.AumentarSalario();
+            Console.WriteLine($"Novo Salario R${mateus.GetSalario().ToString("F2")}");
+
+            gerenciador.Registrar(marcio);
+            gerenciador.Registrar(dani);
+            gerenciador.Registrar(mateus);
+            gerenciador.Registrar(jessica);
+
+            Console.WriteLine($"\n\nTotal de Bonificacoes R${gerenciador.GetTotalBonificacao().ToString("F2")}");
+
+            Console.ReadLine();
         }
     }
 }
