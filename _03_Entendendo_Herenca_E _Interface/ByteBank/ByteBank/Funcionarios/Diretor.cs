@@ -8,7 +8,11 @@
         }
         public override double GetBonificacao()
         {
-            return _salario * 0.20;
+            return Salario * 0.20;
+        }
+        public override void AumentarSalario()
+        {
+            Salario *= 1.15; // Salario = Salario * 1.15;
         }
     }
 }

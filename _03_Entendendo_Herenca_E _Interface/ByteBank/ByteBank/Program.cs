@@ -16,6 +16,12 @@ namespace ByteBank
             Console.WriteLine($"Total de Bonificacoes: R${gerenciador.GetTotalBonificacao()}");
 
             Console.WriteLine($"\nTotal de Funcionarios: {Funcionario.TotalDeFuncionarios}");
+
+            Console.WriteLine($"\nSalario atual do Diretor R${diretorRoberta.GetSalario()}");
+
+            diretorRoberta.AumentarSalario();
+            Console.WriteLine($"\nNovo Salario do Diretor R${diretorRoberta.GetSalario()}");
+
         }
     }
 }
