@@ -2,14 +2,16 @@
 {
     internal abstract class Funcionario
     {
-        private string _nome;
-        private string _cpf;
+        public static int TotalDeFuncionarios { get; private set; }
+        public string Nome { get; private set; }
+        public string CPF { get; private set; }
         protected double _salario;
         public Funcionario(string nome, string cpf, double salario)
         {
-            _nome = nome;
-            _cpf = cpf;
+            Nome = nome;
+            CPF = cpf;
             _salario = salario;
+            TotalDeFuncionarios++;
         }
         public abstract double GetBonificacao();
     }
