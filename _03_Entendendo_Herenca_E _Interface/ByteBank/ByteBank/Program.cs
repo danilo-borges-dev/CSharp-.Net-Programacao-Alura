@@ -29,6 +29,7 @@ namespace ByteBank
             sistemaInterno.Logar(parceiroComercial, "abc");
             sistemaInterno.Logar(parceiroComercial, "123");
         }
+        #region Calcula a Bonificacao de Todos os Funcionarios
         public static void CalculaBonificacao()
         {
             GerenciadorBonificacao gerenciador = new();
@@ -70,5 +71,6 @@ namespace ByteBank
 
             Console.WriteLine($"\n\nTotal de Bonificacoes R${gerenciador.GetTotalBonificacao().ToString("F2")}");
         }
+        #endregion
     }
 }

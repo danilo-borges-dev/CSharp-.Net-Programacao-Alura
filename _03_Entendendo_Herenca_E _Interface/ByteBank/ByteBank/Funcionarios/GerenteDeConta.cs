@@ -2,12 +2,11 @@
 
 namespace ByteBank.Funcionarios
 {
-    internal class GerenteDeConta : Funcionario, IAutenticavel
+    internal class GerenteDeConta : FuncionarioAutenticavel
     {
-        public string Senha { get; set; }
-        public GerenteDeConta(string nome, string cpf, double salario, string senha) : base(nome, cpf, salario)
+        public GerenteDeConta(string nome, string cpf, double salario, string senha) : base(nome, cpf, salario, senha)
         {
-            Senha = senha;
+
         }
         public override void AumentarSalario()
         {
@@ -16,10 +15,6 @@ namespace ByteBank.Funcionarios
         public override double GetBonificacao()
         {
             return Salario * 0.25;
-        }
-        public bool Autenticar(string senha)
-        {
-            return Senha == senha;
         }
     }
 }

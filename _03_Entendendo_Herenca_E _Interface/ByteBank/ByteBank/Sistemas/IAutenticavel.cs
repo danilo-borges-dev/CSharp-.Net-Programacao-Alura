@@ -1,8 +1,8 @@
 ﻿namespace ByteBank.Sistemas
 {
-    internal interface IAutenticavel
+    public interface IAutenticavel
     {
         public string Senha { get; set; }
-        public bool Autenticar(string senha);
+        bool Autenticar(string senha);
     }
 }
