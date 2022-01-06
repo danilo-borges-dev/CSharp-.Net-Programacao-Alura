@@ -1,4 +1,5 @@
 ﻿using ByteBank.Funcionarios;
+using ByteBank.Sistemas;
 
 namespace ByteBank
 {
@@ -6,12 +7,35 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
+            //CalculaBonificacao();
 
+            UsarSistema();
+
+            Console.ReadLine();
+        }
+        public static void UsarSistema()
+        {
+            SistemaInterno sistemaInterno = new();
+            Diretor marcio = new("Mario", "123", 5_000, "123");
+            sistemaInterno.Logar(marcio, "123");
+            sistemaInterno.Logar(marcio, "abc\n");
+
+            GerenteDeConta mateus = new("Mateus", "123", 4_000, "123");
+            sistemaInterno.Logar(mateus, "123");
+
+            Console.WriteLine();
+
+            ParceiroComercial parceiroComercial = new("abc");
+            sistemaInterno.Logar(parceiroComercial, "abc");
+            sistemaInterno.Logar(parceiroComercial, "123");
+        }
+        public static void CalculaBonificacao()
+        {
             GerenciadorBonificacao gerenciador = new();
 
-            Diretor marcio = new("Mario", "123", 5_000);
+            Diretor marcio = new("Mario", "123", 5_000, "123");
             Designer dani = new("Dani", "123", 3_000);
-            GerenteDeConta mateus = new("Mateus", "123", 4_000);
+            GerenteDeConta mateus = new("Mateus", "123", 4_000, "123");
             Auxiliar jessica = new("Jessica", "123", 2_000);
 
             Console.WriteLine($"\n# Diretor {marcio.Nome}");
@@ -45,8 +69,6 @@ namespace ByteBank
             gerenciador.Registrar(jessica);
 
             Console.WriteLine($"\n\nTotal de Bonificacoes R${gerenciador.GetTotalBonificacao().ToString("F2")}");
-
-            Console.ReadLine();
         }
     }
 }
